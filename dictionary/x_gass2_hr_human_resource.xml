@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Human resource" max_length="40" name="x_gass2_hr_human_resource" type="collection"/>
+    <element extends="task" label="Human resource" max_length="40" name="x_gass2_hr_human_resource" type="collection">
+        <element label="Title" max_length="40" name="title" type="string"/>
+    </element>
 </database>
